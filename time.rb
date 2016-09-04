@@ -38,6 +38,12 @@ cheatsheet do
             ```
             2016-09-03T23:28:10-0700
             ```
+
+            Except you need to add a colon to the offset, so manually edit to:
+
+            ```
+            2016-09-03T23:28:10-07:00
+            ```
             END
         end
     end
