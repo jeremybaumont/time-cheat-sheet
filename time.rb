@@ -46,5 +46,21 @@ cheatsheet do
             ```
             END
         end
+        entry do
+            name "Convert to Unix epoch time in Python"
+            notes <<-'END'
+            ```
+            import arrow
+            s = "2006-01-02T15:04:05.000-0700"
+            ts = arrow.get(s).timestamp
+            ts
+            ```
+
+            Output:
+            ```
+            1136239445
+            ```
+            END
+        end
     end
 end
